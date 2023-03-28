@@ -9,7 +9,7 @@
 
 
 def soma(a, b):
-    """Add numbers.
+    """Add up numbers.
 
     Parameters
     ----------
@@ -27,3 +27,20 @@ def soma(a, b):
         )
 
     return a + b
+
+
+def subtracao(a, b):
+    """Substract `b` from `a`.
+
+    Parameters
+    ----------
+    a : TODO
+    b : TODO
+
+    Returns
+    -------
+    TODO
+
+    """
+
+    return a - b
