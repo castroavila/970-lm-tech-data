@@ -6,3 +6,24 @@
 """
 
 """
+
+
+def soma(a, b):
+    """Add numbers.
+
+    Parameters
+    ----------
+    a : TODO
+    b : TODO
+
+    Returns
+    -------
+    TODO
+
+    """
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError(
+            f'O input `a` e `b` devem ser uma string, recebido {a}, {type(a)}, {b} {type(b)}'
+        )
+
+    return a + b
