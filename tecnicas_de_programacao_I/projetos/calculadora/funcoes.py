@@ -63,3 +63,22 @@ def divisao(a, b):
         raise ValueError('Parameter `b` = 0, operation dont allowed.')
 
     return a / b
+
+
+def multiplicacao(a, b):
+    """Multiply a * b
+
+    Parameters
+    ----------
+    a : TODO
+    b : TODO
+
+    Returns
+    -------
+    TODO
+
+    """
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError('Parametro `a` ou `b` nao eh int ou float.')
+
+    return a * b
