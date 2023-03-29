@@ -44,3 +44,22 @@ def subtracao(a, b):
     """
 
     return a - b
+
+
+def divisao(a, b):
+    """Divided a/b.
+
+    Parameters
+    ----------
+    a : TODO
+    b : TODO
+
+    Returns
+    -------
+    TODO
+
+    """
+    if b == 0:
+        raise ValueError('Parameter `b` = 0, operation dont allowed.')
+
+    return a / b
